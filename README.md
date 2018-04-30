@@ -25,6 +25,6 @@ Your app is ready to be deployed!
 Main and and unsolved difficulty or issue is after refreshing detail page... I know solution is probably "redux-persist",
 but I never used it before.
 
-## Difficulties
+## Time spent
 
 I spent for this task about 5h. (30min analyzing implementation of "redux-persist").
