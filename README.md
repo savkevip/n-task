@@ -22,7 +22,7 @@ Your app is ready to be deployed!
 
 ## Difficulties
 
-Main and and unsolved difficulty or issue is after refreshing detail page... I know solution is probably "redux-persist",
+Main and unsolved difficulty or issue is after refreshing detail page... I know solution is probably "redux-persist",
 but I never used it before.
 
 ## Time spent
