@@ -27,7 +27,7 @@ export default (state = initState, action = {}) => {
                 data: payload
             };
         case LOAD_USER:
-            const selectedUser = state.data.filter(user => user.id === Number.parseInt(payload));
+            const selectedUser = state.data.filter(user => user.id === Number.parseInt(payload, 10));
             return {
                 ...state,
                 selectedUser: selectedUser[0] || undefined
