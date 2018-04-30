@@ -1,0 +1,45 @@
+.table-detail-card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table-detail-user-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.table-detail-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.table-detail-button:hover {
+    transition: ease .5s;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.table-detail-link {
+    transition: ease .5s;
+    text-decoration: none;
+    color: #a5435d;
+}
+
+.table-detail-link:hover {
+    transition: ease .5s;
+    color: #000;
+}
