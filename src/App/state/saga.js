@@ -10,9 +10,9 @@ export function* getDataSaga() {
 function* getData() {
     try {
         const data = yield call(getDataApi);
-        yield put(getDataSuccess(data))
+        yield put(getDataSuccess(data));
     } catch(err) {
-        console.warn('Data is not loaded...', err)
-        yield put(getDataFailure())
+        console.warn('Data is not loaded...', err);
+        yield put(getDataFailure());
     }
 }

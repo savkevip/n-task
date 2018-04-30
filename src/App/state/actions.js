@@ -16,4 +16,4 @@ export const getDataFailure = () => ({
 export const loadUser = payload => ({
     type: LOAD_USER,
     payload
-})
+});
